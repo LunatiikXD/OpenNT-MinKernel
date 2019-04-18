@@ -523,7 +523,6 @@ HalpGetMcaLog (
 //
 #define        HalpMcaSwitchMcaExceptionStackAndBugCheck KeBugCheckEx
 #else
-NTKERNELAPI
 VOID
 HalpMcaSwitchMcaExceptionStackAndBugCheck(
     IN ULONG BugCheckCode,
